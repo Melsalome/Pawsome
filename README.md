@@ -1,27 +1,38 @@
-# React + TypeScript + Vite
+Pawsome: Conectando Refugios y Voluntarios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pawsome es una aplicación desarrollada para facilitar la conexión entre refugios de animales y voluntarios interesados en colaborar con el cuidado de perros y gatos en situación de calle. El proyecto tiene como objetivo principal optimizar la comunicación y organización de actividades de voluntariado, brindando una plataforma intuitiva y accesible.
 
-Currently, two official plugins are available:
+Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Listado de Refugios: Se muestra una lista de refugios disponibles.
 
-## Expanding the ESLint configuration
+Vista Detallada de Refugios: Cada refugio tiene una vista específica que despliega información detallada, incluyendo sus necesidades de voluntariado.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Publicaciones de Voluntariado: Los refugios pueden publicar sus necesidades, como cuidado, alimentación o transporte de animales.
 
-- Configure the top-level `parserOptions` property like this:
+Formulario de Inscripción: Los usuarios interesados pueden inscribirse fácilmente en las actividades a través de un formulario.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
+Tecnologías Utilizadas
+
+Frontend: React con TypeScript
+
+Gestor de Estado: Redux (sin Redux Toolkit)
+
+Estilos: Tailwind CSS
+
+Instalación y Uso
+
+
+Instala las dependencias:
+
+npm install
+
+Ejecuta la aplicación en modo desarrollo:
+
+npm run dev
+
+Abre la aplicación en tu navegador en http://localhost:3000.
+
 }
 ```
 
